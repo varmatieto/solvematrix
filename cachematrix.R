@@ -1,10 +1,9 @@
-
-## create a special list that contains the basic operations on a ## matrix: 
+## create a special list that contains the basic operations on a matrix: 
 ## set, get, make inverted matrix, get inverted matrix
 ## the function check if matrix is a square matrix, if not give a 
 ## message and quit it
 
-makeCacheMatrix <- function(x= matrix() ) 
+makeCacheMatrix <- function(x = matrix() ) 
 {
     
     if (dim(x)[1]!= dim(x)[2]) # here check for square matrix
