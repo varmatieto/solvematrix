@@ -26,7 +26,8 @@ makeCacheMatrix <- function(x = matrix() )
          getsolve = getsolve)
 }
 
-## check if the inverted matrix is already stored and return it
+## this function is a child of makeCacheMatrix function
+## it check if a named  inverted matrix  is already stored and return it
 ## or calculate it, store and return it
 
 
